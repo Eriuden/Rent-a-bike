@@ -17,6 +17,7 @@ export default function InscriptionForm() {
     const emailError = document.querySelector('.email.error')
     const passwordError = document.querySelector('.password.error')
     const passwordConfError = document.querySelector('.password-conf.error')
+    const addressError = document.querySelector('.address.error')
     const termsError = document.querySelector('.terms.error')
 
     passwordConfError.innerHTML=""
@@ -67,8 +68,8 @@ export default function InscriptionForm() {
     <>
       {formSubmit /*Si formSubmit est true, on fait apparaitre ce message, sinon, on envoie le formulaire d'inscription*/? (
         <>
-        <ConnexionForm/>
         <h4 className='="success'> Inscription réussie, veuillez vous connecter</h4>
+        <ConnexionForm/>
         </> 
       ) : (
         <form action ="" onSubmit={handleRegister}> 

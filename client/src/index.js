@@ -13,14 +13,7 @@ import reducers from './redux/reducers/BaseOfReducers';
 import { getUsers } from './actions/users.actions';
 import { getBikes } from './actions/bikes.actions';
 
-//Reste à créer l'index des reducers et importer la const en question
-
-/*
-En date du 21 Juillet 2022
-
-Manque un système de connexion/inscription bien entendu
-*/ 
-
+//Petit défi, chercher sur le net comment créer un espace admin pour pouvoir supprimer et update les motos
 
 
 
