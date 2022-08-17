@@ -8,7 +8,7 @@ export default function Navbar() {
   const uid = useContext(UidContext)
   const userData = useSelector((state)=> state.userReducer)
   return (
-    <div>
+    <div className='flex flex-row justify-around'>
       <Link to={"/"}>Acceuil</Link>
       {uid ? (
         <Link to={"/profil"}>

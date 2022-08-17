@@ -1,4 +1,4 @@
-import { DELETE_BIKE, GET_BIKE, UPDATE_BIKE } from "../actions/bike.actions";
+import { DELETE_BIKE, GET_BIKE, UPDATE_BIKE } from "../actions/bike.action";
 //On va procéder autrement pour le create, comme les autres fois
 
 const initialState = {}

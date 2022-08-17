@@ -1,5 +1,5 @@
 
-import { GET_USER_ERRORS } from "../actions/user.actions";
+import { GET_USER_ERRORS } from "../actions/user.action";
 
 const initialState = { userError: [], postError : {}}
  

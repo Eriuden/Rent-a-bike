@@ -1,5 +1,5 @@
 import React from 'react'
-import { GET_ALLBIKES } from '../actions/bike.actions'
+import { GET_ALLBIKES } from '../actions/bike.action'
 
 
 const initialState ={}

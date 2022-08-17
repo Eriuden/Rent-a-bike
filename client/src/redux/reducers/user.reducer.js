@@ -1,4 +1,4 @@
-import { GET_USER, UPDATE_USER, UPLOAD_PICTURE, DELETE_USER} from "../actions/user.actions";
+import { GET_USER, UPDATE_USER, UPLOAD_PICTURE, DELETE_USER} from "../actions/user.action";
 
 //Interet de l'usage de Redux
 // gestion des states de l'appli

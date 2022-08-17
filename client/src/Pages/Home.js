@@ -3,6 +3,7 @@ import BikeCard from '../Components/BikeCard'
 import { useDispatch } from 'react-redux'
 import { useSelector } from 'react-redux/es/exports'
 import {getbikes} from "../redux/actions/bike.action"
+import { isEmpty } from '../Utils'
 
 export default function Home() {
 
